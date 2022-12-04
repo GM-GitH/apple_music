@@ -1,0 +1,39 @@
+.podcast__table {
+  &__container {
+    left: 30px;
+    padding: 1.5rem;
+    margin: 0 0 1rem 5rem;
+    border-radius: 0.2rem;
+    margin-bottom: 10rem;
+    box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.2);
+  }
+  &__table {
+    width: 100%;
+    border-collapse: collapse;
+    & thead th {
+      text-align: left;
+      padding: 0.5rem;
+      color: black;
+      border-bottom: 1px solid var(--color-8f8f8f);
+      cursor: default;
+    }
+    & tbody tr {
+      color: var(--color-4f89c1);
+      transition: all 0.1s ease-in-out;
+      &:nth-child(even) {
+        background-color: var(--color-eeeeee);
+        border-top: 1px solid var(--color-8f8f8f);
+        border-bottom: 1px solid var(--color-8f8f8f);
+      }
+      &:hover {
+        transform: scale(1.04);
+        color: var(--color-c73943);
+      }
+    }
+    & td {
+      cursor: pointer;
+      width: 70%;
+      padding: 0.5rem;
+    }
+  }
+}

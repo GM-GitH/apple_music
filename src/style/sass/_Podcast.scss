@@ -1,0 +1,8 @@
+.podcast {
+  display: flex;
+  max-width: 100%;
+  &__container {
+    width: 80%;
+    margin-left: 18rem;
+  }
+}
