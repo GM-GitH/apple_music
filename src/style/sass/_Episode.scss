@@ -1,0 +1,13 @@
+.episode {
+  &__container {
+    width: 70%;
+    margin: 3rem 0 5rem 23rem;
+    padding: 1rem 0.5rem;
+    border-radius: 0.2rem;
+    box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    & audio {
+      width: 100%;
+    }
+  }
+}
