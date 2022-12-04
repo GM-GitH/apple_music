@@ -1,0 +1,26 @@
+.home__filter {
+  width: 100%;
+  display: inline-flex;
+  position: relative;
+  margin-bottom: 5.5rem;
+  &__input {
+    margin: 0 1.5rem auto;
+    border: 0.08rem lightgray solid;
+    font-size: 18px;
+    border-radius: 6px;
+    padding: 0.8rem 10rem 0.8rem 0.8rem;
+    outline-color: var(--color-4f89c1);
+    &::placeholder {
+      color: var(--color-8f8f8f);
+    }
+  }
+  &__counter {
+    margin: auto 0 auto auto;
+    padding: 0.2rem 0.5rem;
+    border-radius: 10px;
+    color: white;
+    background-color: var(--color-4f89c1);
+    font-size: 22px;
+    font-weight: 700;
+  }
+}
