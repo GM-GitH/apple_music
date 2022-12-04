@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/apple_music/static/css/main.b38f7cb4.css",
-    "main.js": "/apple_music/static/js/main.cebf3b1d.js",
+    "main.css": "/apple_music/static/css/main.98da82c7.css",
+    "main.js": "/apple_music/static/js/main.6354faab.js",
     "index.html": "/apple_music/index.html",
-    "main.b38f7cb4.css.map": "/apple_music/static/css/main.b38f7cb4.css.map",
-    "main.cebf3b1d.js.map": "/apple_music/static/js/main.cebf3b1d.js.map"
+    "main.98da82c7.css.map": "/apple_music/static/css/main.98da82c7.css.map",
+    "main.6354faab.js.map": "/apple_music/static/js/main.6354faab.js.map"
   },
   "entrypoints": [
-    "static/css/main.b38f7cb4.css",
-    "static/js/main.cebf3b1d.js"
+    "static/css/main.98da82c7.css",
+    "static/js/main.6354faab.js"
   ]
 }
