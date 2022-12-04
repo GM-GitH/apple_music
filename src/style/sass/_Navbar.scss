@@ -1,0 +1,17 @@
+.navbar {
+    &__link {
+      display: inline-flex;
+      text-decoration: none;
+      color: var(--color-4f89c1);
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        color: var(--color-c73943);
+      }
+    }
+    hr {
+      height: 0.05rem;
+      background-color: lightgray;
+      border: none;
+      margin-bottom: 2rem;
+    }
+  }
