@@ -1,17 +1,38 @@
 .navbar {
-    &__link {
-      display: inline-flex;
-      text-decoration: none;
-      color: var(--color-4f89c1);
-      transition: all 0.2s ease-in-out;
-      &:hover {
-        color: var(--color-c73943);
-      }
-    }
-    hr {
-      height: 0.05rem;
-      background-color: lightgray;
-      border: none;
-      margin-bottom: 2rem;
+  position: relative;
+  &__link {
+    display: inline-flex;
+    text-decoration: none;
+    color: var(--color-4f89c1);
+    transition: all 0.2s ease-in-out;
+    &:hover {
+      color: var(--color-c73943);
     }
   }
+  &__loader {
+    position: absolute;
+    right: 0;
+    top: 1rem;
+    border: 1rem solid var(--color-eeeeee);
+    border-radius: 100%;
+    border-top: 1rem solid var(--color-4f89c1);
+    width: 0.5rem;
+    height: 0.5rem;
+    animation: spin 1s linear infinite;
+  }
+  hr {
+    height: 0.05rem;
+    background-color: lightgray;
+    border: none;
+    margin-bottom: 2rem;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
