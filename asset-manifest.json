@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/apple_music/static/css/main.8cfa02cb.css",
+    "main.js": "/apple_music/static/js/main.cebf3b1d.js",
+    "index.html": "/apple_music/index.html",
+    "main.8cfa02cb.css.map": "/apple_music/static/css/main.8cfa02cb.css.map",
+    "main.cebf3b1d.js.map": "/apple_music/static/js/main.cebf3b1d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8cfa02cb.css",
+    "static/js/main.cebf3b1d.js"
+  ]
+}
