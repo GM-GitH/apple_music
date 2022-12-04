@@ -1,0 +1,48 @@
+.home {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  &__card {
+    width: 15rem;
+    padding: 0 1.5rem;
+    margin: 1rem;
+    border-radius: 0.2rem;
+    margin-bottom: 10rem;
+    text-align: center;
+    box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    & a {
+      text-decoration: none;
+    }
+    &__image {
+      max-width: 8rem;
+      display: flex;
+      margin: -4rem auto 0;
+      border-radius: 100%;
+      transition: all 0.3s ease-in-out;
+    }
+    &:hover {
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+      transform: scale(1.05);
+      cursor: pointer;
+      .home__card__image {
+        box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.4);
+      }
+      .home__card__title {
+        color: var(--color-4f89c1);
+      }
+      .home__card__author {
+        color: var(--color-c73943);
+      }
+    }
+    &__title {
+      font-size: 1rem;
+      color: var(--color-5a5a5a);
+      margin-top: 0.5rem;
+    }
+    &__author {
+      font-size: 1rem;
+      color: var(--color-8f8f8f);
+    }
+  }
+}
